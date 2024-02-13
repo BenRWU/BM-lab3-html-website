@@ -17,7 +17,14 @@ ul, h1 {
     margin: auto;
     overflow: hidden;
 }
-
+.container2 {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content (if you also want vertical centering) */
+    width: 80%;
+    margin: auto; /* Centers the container itself */
+    overflow: hidden;
+}
 .active {
     color: #a39d9d;
     font-weight: bold;
